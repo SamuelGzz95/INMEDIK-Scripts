@@ -36,4 +36,3 @@ DELETE FROM Modulo
 
 DELETE FROM Municipio
 DELETE FROM Estado
-
