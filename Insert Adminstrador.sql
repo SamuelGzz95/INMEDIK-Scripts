@@ -53,10 +53,6 @@ INSERT INTO usr.AccionMenuRol(MenuId,RolId,AccionId) Values(11,@rolId,1); --Acci
 INSERT INTO usr.AccionMenuRol(MenuId,RolId,AccionId) Values(11,@rolId,2); --Accion Editar
 INSERT INTO usr.AccionMenuRol(MenuId,RolId,AccionId) Values(11,@rolId,3); --Accion Ver
 INSERT INTO usr.AccionMenuRol(MenuId,RolId,AccionId) Values(11,@rolId,8); --Accion Cambiar estatus
---Menu Listado de cotizaciones de cliente
-INSERT INTO usr.AccionMenuRol(MenuId,RolId,AccionId) Values(12,@rolId,3); --Accion Ver
---Menu Listado de cotizaciones de proveedor
-INSERT INTO usr.AccionMenuRol(MenuId,RolId,AccionId) Values(13,@rolId,3); --Accion Ver
 
 
 INSERT INTO usr.Usuario(Id ,Nombre ,ApellidoPaterno ,ApellidoMaterno ,SexoId ,FechaNacimiento ,Email ,EmailConfirmado ,Activo ,RolId ,FechaCreacion ,UsuarioCreacion)
